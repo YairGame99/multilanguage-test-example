@@ -1,0 +1,27 @@
+Begin
+   OutText("Hello, World!"); OutImage;
+
+   Integer x, y, sum;
+   x := 10; 
+   y := 20;
+   OutText("x = "); OutInt(x, 1); 
+   OutText(", y = "); OutInt(y, 1); 
+   OutImage;
+
+   if x < y then
+      OutText("x is less than y!")
+   else
+      OutText("x is greater than or equal to y!");
+   OutImage;
+
+   OutText("Counting from 1 to 5:");
+   OutImage;
+   For i := 1 step 1 until 5 do
+      OutInt(i, 1); OutChar(" ");
+   end;
+   OutImage;
+
+   sum := x + y;
+   OutText("Sum of x and y = "); OutInt(sum, 1);
+   OutImage;
+End
