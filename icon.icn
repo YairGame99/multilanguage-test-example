@@ -1,0 +1,40 @@
+# File: icon.icn
+# Description: A basic demonstration of essential Icon features.
+#
+# This example is part of the multilanguage-test-example project.
+# It includes:
+#   - Printing "Hello, World!".
+#   - Variable assignments for x and y.
+#   - A conditional to compare x and y.
+#   - A loop to print numbers from 1 to 5.
+#   - Arithmetic: Computing the sum of x and y.
+#
+# How to Run:
+#   Run the file in an Icon interpreter, e.g., using:
+#       icon icon.icn
+
+procedure main()
+   write("Hello, World!")
+   x := 10
+   y := 20
+   write("x = ", x, ", y = ", y)
+   
+   if x < y then
+      write("x is less than y.")
+   else
+      write("x is greater than or equal to y.")
+   endif
+   
+   write("Counting from 1 to 5:")
+   i := 1
+   while i <= 5 do {
+      write(i, " ")
+      i := i + 1
+   }
+   write("")  % Newline
+   
+   sum := x + y
+   write("Sum of x and y = ", sum)
+end
+
+main()
