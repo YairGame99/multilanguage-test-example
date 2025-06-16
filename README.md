@@ -28,6 +28,34 @@ Each file in this repository is named following the convention `<language>.<exte
 - `r.R` – Basic R example
 - `bash.sh` – Basic Bash example
 - `lua.lua` – Basic Lua example
+- `pascal.pas` – Basic Pascal example
+- `ada.adb` – Basic Ada example
+- `cobol.cob` – Basic COBOL example
+- `fsharp.fsx` – Basic F# example
+- `elixir.exs` – Basic Elixir example
+- `groovy.groovy` – Basic Groovy example
+- `b.b` – Basic B example
+- `fortran.f` – Basic Fortran example (Fortran 77 style)
+- `basic.bas` – Basic BASIC example
+- `advanced_fortran.f` – Advanced Fortran example (includes user input and factorial calculation)
+- `advanced_basic.bas` – Advanced BASIC example (Fibonacci sequence)
+- `assembly.asm` – x86‑64 Assembly example (NASM syntax)
+- `common_lisp.lisp` – Common Lisp example
+- `prolog.pl` – Prolog example
+- `modula2.mod` – Modula‑2 example
+- `smalltalk.st` – Smalltalk example
+- `erlang.erl` – Erlang example
+- `scheme.scm` – Scheme example
+- `forth.fs` – Forth example
+- `algol68.a68` – Algol 68 example
+- `simula.sim` – Simula example
+- `pl1.pl1` – PL/I example
+- `awk.awk` – AWK example
+- `snobol4.sno` – SNOBOL4 example
+- `icon.icn` – Icon example
+- `hello.e` – Eiffel example
+- `hello.rexx` – REXX example
+- `HELLO.m` – MUMPS (M) example
 
 *And more…*
 
