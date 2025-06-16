@@ -1,0 +1,39 @@
+* File: snobol4.sno
+* Description: A basic demonstration of SNOBOL4 features.
+*
+* This example is part of the multilanguage-test-example project.
+* It includes:
+*   - Output of "Hello, World!".
+*   - Variable assignments for X and Y.
+*   - Conditional evaluation using IF.
+*   - A loop (implemented with labels) to print numbers 1 to 5.
+*   - Arithmetic: Calculating the sum of X and Y.
+*
+* How to Run:
+*   Run the file using a SNOBOL4 interpreter:
+*       snobol4 snobol4.sno
+
+OUTPUT = "Hello, World!" :F(OUTPUT)
+
+X = 10
+Y = 20
+
+OUTPUT = "x = " X " , y = " Y :F(OUTPUT)
+
+IF X < Y
+    OUTPUT = "x is less than y." :F(OUTPUT)
+ELSE
+    OUTPUT = "x is greater than or equal to y." :F(OUTPUT)
+END
+
+OUTPUT = "Counting from 1 to 5:" :F(OUTPUT)
+I = 1
+LOOP:
+OUTPUT = I " " :F(OUTPUT)
+I = I + 1
+I > 5   :F(GOTO, DONE)
+      GOTO LOOP
+DONE:
+
+SUM = X + Y
+OUTPUT = "Sum of x and y = " SUM :F(OUTPUT)
