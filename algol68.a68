@@ -1,0 +1,26 @@
+BEGIN
+   print( ("Hello, World!", newline) );
+   
+   BEGIN
+     INT x, y, i, sum;
+     x := 10;
+     y := 20;
+     print( ("x = ", x, ", y = ", y, newline) );
+     
+     IF x < y THEN
+         print( ("x is less than y.", newline) )
+     ELSE
+         print( ("x is greater than or equal to y.", newline) )
+     FI;
+     
+     print( ("Counting from 1 to 5:", newline) );
+     
+     FOR i FROM 1 TO 5 DO
+         print( (i, " ") )
+     OD;
+     print( (newline) );
+     
+     sum := x + y;
+     print( ("Sum of x and y = ", sum, newline) )
+   END
+END.
