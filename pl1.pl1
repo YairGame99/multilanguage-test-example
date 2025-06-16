@@ -1,0 +1,34 @@
+/* File: pl1.pl1
+   Description: A basic demonstration of PL/I language features.
+   This example is part of the multilanguage-test-example project.
+   It includes:
+     - A "Hello, World!" output.
+     - Variable assignments to x and y.
+     - A conditional statement.
+     - A DO loop to count from 1 to 5.
+     - Arithmetic to compute the sum.
+*/
+HELLO: PROC OPTIONS(MAIN);
+   DECLARE x FIXED BIN(31) INIT(10),
+           y FIXED BIN(31) INIT(20),
+           sum FIXED BIN(31);
+   
+   PUT SKIP LIST('Hello, World!');
+   PUT SKIP LIST('x = ', x, ', y = ', y);
+   
+   IF x < y THEN
+      PUT SKIP LIST('x is less than y.');
+   ELSE
+      PUT SKIP LIST('x is greater than or equal to y.');
+   END;
+   
+   PUT SKIP LIST('Counting from 1 to 5:');
+   DO i = 1 TO 5;
+       PUT EDIT(i) (F1.0);
+   END;
+   PUT SKIP;
+   
+   sum = x + y;
+   PUT SKIP LIST('Sum of x and y = ', sum);
+   
+END HELLO;
