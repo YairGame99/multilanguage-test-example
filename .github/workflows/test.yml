@@ -1,0 +1,11 @@
+name: Test All Examples
+on: [pull_request, push]
+jobs:
+  run-examples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run examples
+        run: |
+          chmod +x scripts/run_all.sh
+          ./scripts/run_all.sh
