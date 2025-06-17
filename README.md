@@ -91,5 +91,4 @@ Contributions, suggestions, or improvements are welcome. Feel free to fork the r
 
 Happy coding!
 
-[![First Pull Request Review Badge](https://img.shields.io/github/badge/--First%20Pull%20Request%20Review-blue)]()
 [![Contributing](https://img.shields.io/badge/CONTRIBUTING.md-blue.svg)](/CONTRIBUTING.md)
