@@ -1,4 +1,4 @@
-# Multilanguage Test Examples
+# Multilanguage Test Examples 🚀
 
 Welcome to the **Multilanguage Test Examples** repository! This project contains simple, self-contained examples of programming fundamentals implemented in various programming languages. Each example demonstrates basic constructs—including output, variable declarations, conditionals, loops, and functions/methods—with clear inline comments to help you learn and run the code quickly.
 
